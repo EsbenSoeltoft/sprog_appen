@@ -1,0 +1,304 @@
+{
+  "name": "Sprog Appen",
+  "version": "4",
+  "master_source": "source/sammensat_taleboble_gron_v1_original.png",
+  "palette": {
+    "primary": "#056B5C",
+    "base": "#24685B",
+    "dark": "#005145",
+    "mint": "#A0F2DE",
+    "cream": "#F8F9F5"
+  },
+  "assets": [
+    {
+      "file": "android_reference/adaptive_circle_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 113558,
+      "sha256": "8112d72cbac120d0c34b5e1c513829682b9adbfa93fdcbbcdcdfcdeda2ad43c4"
+    },
+    {
+      "file": "android_reference/adaptive_square_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 103412,
+      "sha256": "f3e4ee4497e800305051e3ad9893c645ad0ceb14658972e33017cf08b69d0a7e"
+    },
+    {
+      "file": "android_reference/adaptive_squircle_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 109774,
+      "sha256": "6b579ec10584e368df36f8a59c33cd0ca749002bb281ced2fe354e73b7a3b513"
+    },
+    {
+      "file": "android_reference/ic_launcher_hdpi_72.png",
+      "size": [
+        72,
+        72
+      ],
+      "mode": "RGB",
+      "bytes": 6767,
+      "sha256": "5871f3c13233dbcb2b46b1eb5335609a62263efd3e98ccd48f582ec02eac7897"
+    },
+    {
+      "file": "android_reference/ic_launcher_mdpi_48.png",
+      "size": [
+        48,
+        48
+      ],
+      "mode": "RGB",
+      "bytes": 3724,
+      "sha256": "dc3585611cd56e6c55d04316a82d3b417010fb8c8fe0ec75c61b1793d4b68441"
+    },
+    {
+      "file": "android_reference/ic_launcher_xhdpi_96.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGB",
+      "bytes": 10556,
+      "sha256": "2dd220d40719e9ea230010e00b0682ea50b6e0acf530c54295b0f05886f61a5f"
+    },
+    {
+      "file": "android_reference/ic_launcher_xxhdpi_144.png",
+      "size": [
+        144,
+        144
+      ],
+      "mode": "RGB",
+      "bytes": 20340,
+      "sha256": "a8a8bd10e07afc30a3c4eead1ee32448ad081acf4812779df52c4075e681a3d5"
+    },
+    {
+      "file": "android_reference/ic_launcher_xxxhdpi_192.png",
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGB",
+      "bytes": 33198,
+      "sha256": "baf85aaa6cb40e2890ef323b247f3a620b4bf0641f1fc11f3e357595cc7b7647"
+    },
+    {
+      "file": "android_reference/monochrome_dark_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 61840,
+      "sha256": "7b9baf13989b4ea47ffb063938d0dd6e91b848eee1ebaea2e9c64fde80e6104a"
+    },
+    {
+      "file": "android_reference/monochrome_light_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 62991,
+      "sha256": "98e44848139ed2adce03705d156396c84f361f0c9fb69d6bcb5b1176ef5108e9"
+    },
+    {
+      "file": "assets/icon/adaptive_background.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 33682,
+      "sha256": "1539627d0773f21567352f84c9c04e44cebdfa800a5c22cf6909bd52388986fa"
+    },
+    {
+      "file": "assets/icon/adaptive_foreground.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 417898,
+      "sha256": "447b086926350c4a5dd9f4d7aa2edc5b56289ecf749aa4383259902c618f7faa"
+    },
+    {
+      "file": "assets/icon/adaptive_monochrome.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 93788,
+      "sha256": "c20984c826d3fae7361a7eeb6b348f4d0a995b26e0435592a570d3c9d51722c2"
+    },
+    {
+      "file": "assets/icon/app_icon.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 902412,
+      "sha256": "70d7b3fb76372eab15216a28b5bf3cebd480d6235e861b4549b98fc77f28c578"
+    },
+    {
+      "file": "play_store/app_icon_512x512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 252303,
+      "sha256": "ed637d744a3be0e78ca32cc8109101087c7cd3f664d5126854df1e4de9dd8329"
+    },
+    {
+      "file": "play_store/extra/social_banner_1200x630.png",
+      "size": [
+        1200,
+        630
+      ],
+      "mode": "RGB",
+      "bytes": 242719,
+      "sha256": "6fe45c467a9cf29020aba5b387133f69582bedf2e3f7de8d7f9955d5041ee392"
+    },
+    {
+      "file": "play_store/feature_graphic_1024x500.png",
+      "size": [
+        1024,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 161084,
+      "sha256": "f19437d554916bf172b2f26f6c06011ae4d0637cc72fb455bbe014ad3a611fbb"
+    },
+    {
+      "file": "play_store/feature_graphic_textfree_1024x500.png",
+      "size": [
+        1024,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 144964,
+      "sha256": "91f8c81bfa2d52a1dee4e7e90a49b2ef1d66f4d50009820e59c4892ab270a3f0"
+    },
+    {
+      "file": "play_store/screenshots/previews/phone_01_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 44525,
+      "sha256": "ba01bdfbc29581dd1b64b2a5cf0c565b0dcb19d179fa2bae51f261672e4daf7b"
+    },
+    {
+      "file": "play_store/screenshots/previews/phone_02_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 49184,
+      "sha256": "4d2d4cc9922dff3e917fa1fff95781ab2d5828c6b73b12b45667a0d535a090ed"
+    },
+    {
+      "file": "play_store/screenshots/previews/phone_03_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 49294,
+      "sha256": "3761ff1ae3084f217b7bc48ceb9918ae008b72ed5ceb47e2d03d0ed296c9d606"
+    },
+    {
+      "file": "play_store/screenshots/previews/phone_04_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 46583,
+      "sha256": "cb1f4a4693a51166715a880a1ca81ff0542ac8c08ce8ffad061be3779c4be491"
+    },
+    {
+      "file": "play_store/screenshots/templates/phone_01_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 36535,
+      "sha256": "e9409b919402e97d976b6c144e61739dba170f850f636734b7b04e30c35596ff"
+    },
+    {
+      "file": "play_store/screenshots/templates/phone_02_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 41411,
+      "sha256": "8026968d907de4e1d98635d175b94e92e006e20cd3c296f760872d13f38a17f2"
+    },
+    {
+      "file": "play_store/screenshots/templates/phone_03_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 41484,
+      "sha256": "2e7baebde07ade3d6504ee8e17a82a714e7210d652c2451564843a6b4f605595"
+    },
+    {
+      "file": "play_store/screenshots/templates/phone_04_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 38664,
+      "sha256": "0cdb88fa0dd7400e9379e13640ca2996c99ed2313c450ef65b26197daaaa6b22"
+    },
+    {
+      "file": "source/sammensat_taleboble_gron_v1_original.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "bytes": 1276487,
+      "sha256": "f61b39aa0138aaa7a5bc5f3aa47417fc08f0681818e53342ce6adaa7678261ab"
+    },
+    {
+      "file": "source/speech_bubble_isolated_from_original.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bytes": 1447905,
+      "sha256": "c7e23bedf0da799896b0b8a0bd30a7b4ad851abb957bfa973039f1a2c0e54162"
+    },
+    {
+      "file": "sprog_appen_icon_v4_preview.png",
+      "size": [
+        1560,
+        1465
+      ],
+      "mode": "RGB",
+      "bytes": 540637,
+      "sha256": "7e1e581c9f471474d6592b4124d92af081cd5dad5c11dce8e1e18277e81d24fa"
+    }
+  ]
+}

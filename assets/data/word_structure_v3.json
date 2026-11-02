@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "ordstruktur",
+  "title": "Sammensatte ord og orddeling",
+  "words": [
+    {
+      "id": "v3-word-solbriller",
+      "text": "solbriller",
+      "parts": [
+        "sol",
+        "briller"
+      ],
+      "syllables": [
+        "sol",
+        "bril",
+        "ler"
+      ],
+      "lineBreaks": [
+        "sol-briller"
+      ],
+      "explanation": "Solbriller er sammensat af sol og briller. Betydningsdelene er sol + briller; stavelserne er sol · bril · ler.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "solbriller",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "v3-word-regnjakke",
+      "text": "regnjakke",
+      "parts": [
+        "regn",
+        "jakke"
+      ],
+      "explanation": "En regnjakke er en jakke til regn. Vi bygger ordet af regn + jakke.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "regnjakke",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "v3-word-biblioteksbog",
+      "text": "biblioteksbog",
+      "parts": [
+        "bibliotek",
+        "bog"
+      ],
+      "linkingElement": "s",
+      "lineBreaks": [
+        "biblioteks-bog"
+      ],
+      "explanation": "Biblioteksbog består af bibliotek og bog med s som bindebogstav. Ved deling mellem de to led bliver s på første linje: biblioteks- / bog.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "biblioteksbog",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "v3-word-kage",
+      "text": "kage",
+      "syllables": [
+        "ka",
+        "ge"
+      ],
+      "explanation": "Kage har stavelserne ka og ge. De er ikke to selvstændige ord, som er sat sammen.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "kage",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "v3-word-skole",
+      "text": "skole",
+      "syllables": [
+        "sko",
+        "le"
+      ],
+      "lineBreaks": [
+        "sko-le"
+      ],
+      "explanation": "Ved linjeskift kan skole deles sko- / le. Der skal være en vokal på begge linjer; sk- / ole opfylder ikke det krav.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "skole",
+        "locale": "da-DK"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "v3-build-solbriller",
+      "type": "build_compound",
+      "wordId": "v3-word-solbriller",
+      "prompt": "Byg ordet for briller, der beskytter mod solen.",
+      "tiles": [
+        "briller",
+        "sol"
+      ],
+      "options": [
+        "brillersol",
+        "solbriller"
+      ],
+      "answer": "solbriller"
+    },
+    {
+      "id": "v3-build-regnjakke",
+      "type": "build_compound",
+      "wordId": "v3-word-regnjakke",
+      "prompt": "Byg ordet for en jakke til regn.",
+      "tiles": [
+        "jakke",
+        "regn"
+      ],
+      "options": [
+        "regnjakke",
+        "jakkeregn"
+      ],
+      "answer": "regnjakke"
+    },
+    {
+      "id": "v3-parts-solbriller",
+      "type": "choose_parts",
+      "wordId": "v3-word-solbriller",
+      "prompt": "Hvilke to selvstændige ord består solbriller af?",
+      "options": [
+        "sol + bril + ler",
+        "sol + briller"
+      ],
+      "answer": "sol + briller"
+    },
+    {
+      "id": "v3-parts-biblioteksbog",
+      "type": "choose_parts",
+      "wordId": "v3-word-biblioteksbog",
+      "prompt": "Find de to ord og bindebogstavet i biblioteksbog.",
+      "options": [
+        "bibliotek + s + bog",
+        "biblioteks + bog"
+      ],
+      "answer": "bibliotek + s + bog"
+    },
+    {
+      "id": "v3-syllables-solbriller",
+      "type": "choose_syllables",
+      "wordId": "v3-word-solbriller",
+      "prompt": "Vælg stavelserne i solbriller. Vi spørger efter stavelser, ikke betydningsdele.",
+      "options": [
+        "so-lbril-ler",
+        "sol-bril-ler"
+      ],
+      "answer": "sol-bril-ler"
+    },
+    {
+      "id": "v3-syllables-kage",
+      "type": "choose_syllables",
+      "wordId": "v3-word-kage",
+      "prompt": "Vælg den viste stavelsesdeling af kage.",
+      "options": [
+        "ka-ge",
+        "kag-e"
+      ],
+      "answer": "ka-ge"
+    },
+    {
+      "id": "v3-line-skole",
+      "type": "choose_line_break",
+      "wordId": "v3-word-skole",
+      "prompt": "Ordet skole skal deles ved slutningen af en linje. Hvilken af disse delinger er korrekt?",
+      "options": [
+        "sk-ole",
+        "sko-le"
+      ],
+      "answer": "sko-le"
+    },
+    {
+      "id": "v3-line-biblioteksbog",
+      "type": "choose_line_break",
+      "wordId": "v3-word-biblioteksbog",
+      "prompt": "Del biblioteksbog mellem betydningsdelene ved linjeskift. Hvor bliver bindebogstavet s?",
+      "options": [
+        "biblioteks-bog",
+        "bibliotek-sbog"
+      ],
+      "answer": "biblioteks-bog"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "v3-byg-ord",
+      "title": "Byg sammensatte ord",
+      "description": "Sæt to betydningsbærende ord sammen.",
+      "exerciseIds": [
+        "v3-build-solbriller",
+        "v3-build-regnjakke"
+      ]
+    },
+    {
+      "id": "v3-find-dele",
+      "title": "Find betydningsdele",
+      "description": "Find ordets led og et eventuelt bindebogstav.",
+      "exerciseIds": [
+        "v3-parts-solbriller",
+        "v3-parts-biblioteksbog"
+      ]
+    },
+    {
+      "id": "v3-find-stavelser",
+      "title": "Find stavelser",
+      "description": "Arbejd med stavelser, som ikke altid er selvstændige ord.",
+      "exerciseIds": [
+        "v3-syllables-solbriller",
+        "v3-syllables-kage"
+      ]
+    },
+    {
+      "id": "v3-linjeskift",
+      "title": "Del ved linjeskift",
+      "description": "Se en konkret deling med bindestreg ved slutningen af første linje.",
+      "exerciseIds": [
+        "v3-line-skole",
+        "v3-line-biblioteksbog"
+      ]
+    }
+  ]
+}

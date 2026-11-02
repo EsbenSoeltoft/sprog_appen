@@ -1,6 +1,0 @@
-# Copy to key.properties (ignored). Never put real credentials in this example.
-# storeFile is absolute or relative to android/.
-storeFile=/absolute/path/to/upload-keystore.jks
-storePassword=REPLACE_ME
-keyAlias=upload
-keyPassword=REPLACE_ME

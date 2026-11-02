@@ -1,0 +1,328 @@
+{
+  "version": "v3",
+  "source_icon": "assets/icon/app_icon.png",
+  "standard_icon_unchanged_from_v2": true,
+  "play_store_unchanged_from_v2": true,
+  "assets": [
+    {
+      "path": "android_reference/adaptive_circle_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 104434,
+      "sha256": "74fa1841a4f5a69b0bd444af4f5681d951d2626a61a194ceab085e55eb665734"
+    },
+    {
+      "path": "android_reference/adaptive_square_preview.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 264909,
+      "sha256": "2246995327d717be63fee641bb1d2a2bf43398ce3361591ea6353ef91db1cb69"
+    },
+    {
+      "path": "android_reference/adaptive_squircle_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 100332,
+      "sha256": "7a1a058f6d3e51d752750631bed9329cff6890da579e6682ddd8fc51349ab5a7"
+    },
+    {
+      "path": "android_reference/ic_launcher_hdpi_72.png",
+      "size": [
+        72,
+        72
+      ],
+      "mode": "RGB",
+      "bytes": 8529,
+      "sha256": "9bc36f14d987efe8bf4e7a774aa954794708738f39febf37389440c04c1bf418"
+    },
+    {
+      "path": "android_reference/ic_launcher_mdpi_48.png",
+      "size": [
+        48,
+        48
+      ],
+      "mode": "RGB",
+      "bytes": 4423,
+      "sha256": "410843d200aad0557259d59f18353320fd4757ee693b151189ab8d72ece62d86"
+    },
+    {
+      "path": "android_reference/ic_launcher_xhdpi_96.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGB",
+      "bytes": 13580,
+      "sha256": "5500c199f0ddf56f7d55cdde683c21f9e2f0b4221a3b32a6cf011e3c2ff50f95"
+    },
+    {
+      "path": "android_reference/ic_launcher_xxhdpi_144.png",
+      "size": [
+        144,
+        144
+      ],
+      "mode": "RGB",
+      "bytes": 26106,
+      "sha256": "a37ecae4fc1538d894c5893ad43d4c0efd90675986c8f1370ece49ddc934d5ec"
+    },
+    {
+      "path": "android_reference/ic_launcher_xxxhdpi_192.png",
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGB",
+      "bytes": 42028,
+      "sha256": "9975c183f6a54d3a3b0cacc818fb6fac4ea17f8b70e5426745d9e4b4d3ff9fcb"
+    },
+    {
+      "path": "android_reference/monochrome_dark_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 62698,
+      "sha256": "34a358b09aa861beca901dcd180ef40937578483f9b11e18fb8bba589fb0fc87"
+    },
+    {
+      "path": "android_reference/monochrome_light_preview.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 64777,
+      "sha256": "ed2d0a10658300551c8130042650b8fcbb24781961a1ce0582f28cff299aa618"
+    },
+    {
+      "path": "assets/icon/adaptive_background.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 37743,
+      "sha256": "a1871f2c0a4fda9c3f4e7383cdf73489edacacb6002a423c0e32da4a75ab0533"
+    },
+    {
+      "path": "assets/icon/adaptive_foreground.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 325991,
+      "sha256": "af542703224f63d02a764c782847a4e60a56648fb8901bab4627a2195f488011"
+    },
+    {
+      "path": "assets/icon/adaptive_monochrome.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 77468,
+      "sha256": "afe3132b3ad6875858132ab4c3d9e95c3753fa0e80b15f8dcd725f33d48d40e1"
+    },
+    {
+      "path": "assets/icon/app_icon.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 902982,
+      "sha256": "92802569b48ae8f16f499d727348c9ad5a6718c566ee4415b5b80fb6cea63e93"
+    },
+    {
+      "path": "brand/danish_flag_reference.png",
+      "size": [
+        400,
+        280
+      ],
+      "mode": "RGBA",
+      "bytes": 1052,
+      "sha256": "d40c8c6450d786425904ba5e3080cc6cc644b1e7a680085ed0087e4a4087a761"
+    },
+    {
+      "path": "play_store/app_icon_512x512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 279448,
+      "sha256": "68899800412d3a49a6eec1921469766356ff0bf04686ad050f5fe031922af579"
+    },
+    {
+      "path": "play_store/extra/social_banner_1200x630.png",
+      "size": [
+        1200,
+        630
+      ],
+      "mode": "RGB",
+      "bytes": 451943,
+      "sha256": "6add7555b08420edc37adf67170a819f6cb68e93a51a14eb002b570b2e859638"
+    },
+    {
+      "path": "play_store/feature_graphic_1024x500.png",
+      "size": [
+        1024,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 317044,
+      "sha256": "5047799ef3ae0c34fb851469fdb488a930c620b02789969406a6526d9ff11617"
+    },
+    {
+      "path": "play_store/feature_graphic_textfree_1024x500.png",
+      "size": [
+        1024,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 301393,
+      "sha256": "6d95c6339b4e2a71bc016581c73137dc3dce308a3dff18d43a86ee2754ba24f8"
+    },
+    {
+      "path": "play_store/screenshots/previews/phone_01_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 60229,
+      "sha256": "4db157de4f9506dd5783e49182aeab6d0ad5e01cd36c453b7fa9e768fe85fb7a"
+    },
+    {
+      "path": "play_store/screenshots/previews/phone_02_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 63134,
+      "sha256": "3fa1c61453b46c0ed59433eb8d5559a64b38edc7cf1223b1558ac5ed05efb9c4"
+    },
+    {
+      "path": "play_store/screenshots/previews/phone_03_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 61688,
+      "sha256": "01ae2cae6e0102700ce10093f720c0d1a239095bd1115062d0e1e10734128942"
+    },
+    {
+      "path": "play_store/screenshots/previews/phone_04_preview_NOT_FOR_UPLOAD.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "bytes": 62180,
+      "sha256": "ca6b0ef3b5ad5474cf0293ac07416d78afd4d5da794e9f74a87cd049725cb06d"
+    },
+    {
+      "path": "play_store/screenshots/templates/phone_01_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 47521,
+      "sha256": "4cd33ddc99af54619f8a9e16723a260776c1e20796dc73fab60324617b76aa7c"
+    },
+    {
+      "path": "play_store/screenshots/templates/phone_02_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 50711,
+      "sha256": "1b2896471676834e49f2343a80c4252ccc4b72d36a0cd37a215384756b4f24c9"
+    },
+    {
+      "path": "play_store/screenshots/templates/phone_03_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 49128,
+      "sha256": "46c313a6931349a8dd04d7d3a8cdb48604882c6dfd487af4671679f94055b278"
+    },
+    {
+      "path": "play_store/screenshots/templates/phone_04_overlay_1080x1920.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "bytes": 49659,
+      "sha256": "98003476aca453246df74389d55a8637d20c30c21407194d6353a9394eb45f24"
+    },
+    {
+      "path": "play_store/screenshots/templates/tablet_landscape_overlay_2560x1600.png",
+      "size": [
+        2560,
+        1600
+      ],
+      "mode": "RGBA",
+      "bytes": 81319,
+      "sha256": "9237e6f2117e3abe3536e8d9c5ddef6c99ef76518a404771ebb8db477b14029e"
+    },
+    {
+      "path": "source/adaptive_subject_from_standard.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 1104918,
+      "sha256": "6ececd25b3d0360ed3ff992c315fb96fe5a2f5a763ae8a575c46fb359fdc68b4"
+    },
+    {
+      "path": "source/selected_original.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "bytes": 1533674,
+      "sha256": "d5b7ff8ab92e9894b34ec1fc27b68aff42cd6de64897465bd136f2efb1a892e5"
+    },
+    {
+      "path": "source/selected_original_1024.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 926304,
+      "sha256": "056803f0a4ab2717d318ea0d1d9a144d5527b844e4a33ce8df1eaceb9d8fbd4d"
+    },
+    {
+      "path": "sprog_appen_icon_v3_preview.png",
+      "size": [
+        1440,
+        690
+      ],
+      "mode": "RGB",
+      "bytes": 279798,
+      "sha256": "a46835edc77f1c35e93eb02cbf31e696d381d59c7d5588f2dc670f011a2616a1"
+    }
+  ]
+}

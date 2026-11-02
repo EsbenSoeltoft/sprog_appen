@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "stavelser-endelser",
+  "title": "Stavelser og endelser",
+  "lessons": [
+    {
+      "id": "v2-del-stavelser",
+      "title": "Find stavelserne",
+      "description": "Vælg den viste stavelsesdeling af et ord.",
+      "exerciseIds": [
+        "v2-split-kage",
+        "v2-split-skole"
+      ]
+    },
+    {
+      "id": "v2-byg-ord",
+      "title": "Byg med stavelser",
+      "description": "Tryk stavelserne i den rigtige rækkefølge.",
+      "exerciseIds": [
+        "v2-build-skole",
+        "v2-build-kage"
+      ]
+    },
+    {
+      "id": "v2-find-endelsen",
+      "title": "Find endelsen",
+      "description": "Vælg flertalsendelsen i en kort sætning.",
+      "exerciseIds": [
+        "v2-ending-biler",
+        "v2-ending-heste"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "id": "v2-word-kage",
+      "text": "kage",
+      "syllables": [
+        "ka",
+        "ge"
+      ],
+      "explanation": "I denne øvelse deler vi kage i stavelserne ka og ge.",
+      "contentStatus": "draft",
+      "audio": {
+        "ttsText": "kage",
+        "locale": "da-DK",
+        "assetPath": null
+      }
+    },
+    {
+      "id": "v2-word-skole",
+      "text": "skole",
+      "syllables": [
+        "sko",
+        "le"
+      ],
+      "explanation": "I denne øvelse deler vi skole i stavelserne sko og le.",
+      "contentStatus": "draft",
+      "audio": {
+        "ttsText": "skole",
+        "locale": "da-DK",
+        "assetPath": null
+      }
+    },
+    {
+      "id": "v2-word-biler",
+      "text": "biler",
+      "stem": "bil",
+      "ending": "er",
+      "context": "Her er én bil. Derovre er flere bil_.",
+      "explanation": "Én bil, flere biler. Her føjer vi -er til bil. Andre navneord kan få en anden endelse.",
+      "contentStatus": "draft",
+      "audio": {
+        "ttsText": "biler",
+        "locale": "da-DK",
+        "assetPath": null
+      }
+    },
+    {
+      "id": "v2-word-heste",
+      "text": "heste",
+      "stem": "hest",
+      "ending": "e",
+      "context": "Her er én hest. På marken er flere hest_.",
+      "explanation": "Én hest, flere heste. Her føjer vi -e til hest. Flertalsendelser er ikke ens i alle ord.",
+      "contentStatus": "draft",
+      "audio": {
+        "ttsText": "heste",
+        "locale": "da-DK",
+        "assetPath": null
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "v2-split-kage",
+      "type": "choose_syllables",
+      "wordId": "v2-word-kage",
+      "prompt": "Hvordan viser vi stavelserne i kage?",
+      "options": [
+        "kag-e",
+        "ka-ge"
+      ],
+      "answer": "ka-ge"
+    },
+    {
+      "id": "v2-split-skole",
+      "type": "choose_syllables",
+      "wordId": "v2-word-skole",
+      "prompt": "Hvordan viser vi stavelserne i skole?",
+      "options": [
+        "sko-le",
+        "sk-ole"
+      ],
+      "answer": "sko-le"
+    },
+    {
+      "id": "v2-build-skole",
+      "type": "build_word",
+      "wordId": "v2-word-skole",
+      "prompt": "Byg ordet skole. Tryk stavelserne i den rigtige rækkefølge.",
+      "tiles": [
+        "le",
+        "sko"
+      ],
+      "options": [
+        "lesko",
+        "skole"
+      ],
+      "answer": "skole"
+    },
+    {
+      "id": "v2-build-kage",
+      "type": "build_word",
+      "wordId": "v2-word-kage",
+      "prompt": "Byg ordet kage. Tryk stavelserne i den rigtige rækkefølge.",
+      "tiles": [
+        "ge",
+        "ka"
+      ],
+      "options": [
+        "kage",
+        "geka"
+      ],
+      "answer": "kage"
+    },
+    {
+      "id": "v2-ending-biler",
+      "type": "choose_ending",
+      "wordId": "v2-word-biler",
+      "prompt": "Hvilken endelse mangler, når der er flere?",
+      "options": [
+        "e",
+        "er"
+      ],
+      "answer": "er"
+    },
+    {
+      "id": "v2-ending-heste",
+      "type": "choose_ending",
+      "wordId": "v2-word-heste",
+      "prompt": "Hvilken endelse mangler, når der er flere?",
+      "options": [
+        "e",
+        "er"
+      ],
+      "answer": "e"
+    }
+  ]
+}

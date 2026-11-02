@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "lydtrappe.vokaler",
+  "title": "Vokaltrappen",
+  "targetGrades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "ladders": [
+    {
+      "id": "i-e-ae-a",
+      "label": "i – e – æ – a",
+      "letters": [
+        "i",
+        "e",
+        "æ",
+        "a"
+      ]
+    },
+    {
+      "id": "u-o-aa",
+      "label": "u – o – å",
+      "letters": [
+        "u",
+        "o",
+        "å"
+      ]
+    },
+    {
+      "id": "y-oe",
+      "label": "y – ø",
+      "letters": [
+        "y",
+        "ø"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "id": "word-hest",
+      "text": "hest",
+      "ladderId": "i-e-ae-a",
+      "spellingVowel": "e",
+      "pronunciationHint": "æ",
+      "patternId": "e-sounds-like-ae",
+      "explanation": "I 'hest' skriver vi e, selv om vokalen lyder omtrent som æ.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "hest",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "word-kvinde",
+      "text": "kvinde",
+      "ladderId": "i-e-ae-a",
+      "spellingVowel": "i",
+      "pronunciationHint": "e",
+      "patternId": "i-sounds-like-e",
+      "explanation": "I 'kvinde' skriver vi i. Vokalen kan lyde som e.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "kvinde",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "word-ost",
+      "text": "ost",
+      "ladderId": "u-o-aa",
+      "spellingVowel": "o",
+      "pronunciationHint": "å",
+      "patternId": "o-sounds-like-aa",
+      "explanation": "I 'ost' skriver vi o, selv om lyden er å-lignende.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "ost",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "word-bunde",
+      "text": "bunde",
+      "ladderId": "u-o-aa",
+      "spellingVowel": "u",
+      "pronunciationHint": "å",
+      "patternId": "u-sounds-like-aa",
+      "explanation": "I 'bunde' skriver vi u. Her lyder vokalen omtrent som å.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "bunde",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "word-kysse",
+      "text": "kysse",
+      "ladderId": "y-oe",
+      "spellingVowel": "y",
+      "pronunciationHint": "ø",
+      "patternId": "y-sounds-like-oe",
+      "explanation": "I 'kysse' skriver vi y. Vokalen lyder omtrent som ø.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "kysse",
+        "locale": "da-DK"
+      }
+    },
+    {
+      "id": "word-traeffe",
+      "text": "træffe",
+      "ladderId": "i-e-ae-a",
+      "spellingVowel": "æ",
+      "pronunciationHint": "a",
+      "patternId": "ae-sounds-like-a",
+      "explanation": "I 'træffe' skriver vi æ. Her er udtalen mere a-lignende.",
+      "contentStatus": "draft",
+      "audio": {
+        "assetPath": null,
+        "ttsText": "træffe",
+        "locale": "da-DK"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-hest",
+      "type": "choose_missing_vowel",
+      "wordId": "word-hest",
+      "maskedText": "h_st",
+      "options": [
+        "e",
+        "æ"
+      ],
+      "answer": "e"
+    },
+    {
+      "id": "ex-kvinde",
+      "type": "choose_missing_vowel",
+      "wordId": "word-kvinde",
+      "maskedText": "kv_nde",
+      "options": [
+        "i",
+        "e"
+      ],
+      "answer": "i"
+    },
+    {
+      "id": "ex-ost",
+      "type": "choose_missing_vowel",
+      "wordId": "word-ost",
+      "maskedText": "_st",
+      "options": [
+        "o",
+        "å"
+      ],
+      "answer": "o"
+    },
+    {
+      "id": "ex-bunde",
+      "type": "choose_missing_vowel",
+      "wordId": "word-bunde",
+      "maskedText": "b_nde",
+      "options": [
+        "u",
+        "å"
+      ],
+      "answer": "u"
+    },
+    {
+      "id": "ex-kysse",
+      "type": "choose_missing_vowel",
+      "wordId": "word-kysse",
+      "maskedText": "k_sse",
+      "options": [
+        "y",
+        "ø"
+      ],
+      "answer": "y"
+    },
+    {
+      "id": "ex-traeffe",
+      "type": "choose_missing_vowel",
+      "wordId": "word-traeffe",
+      "maskedText": "tr_ffe",
+      "options": [
+        "æ",
+        "a"
+      ],
+      "answer": "æ"
+    }
+  ]
+}

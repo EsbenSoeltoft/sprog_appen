@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "udsagnsord",
+  "verbs": [
+    {
+      "id": "v4-verb-lege",
+      "forms": {
+        "infinitive": "at lege",
+        "present": "leger",
+        "past": "legede",
+        "perfect": "har leget"
+      },
+      "sentences": {
+        "infinitive": "Jeg kan lide at lege.",
+        "present": "Jeg leger i haven.",
+        "past": "I går legede jeg i haven.",
+        "perfect": "Jeg har leget i haven."
+      },
+      "explanation": "Lege er et eksempel med -ede i datid og har leget i førnutid.",
+      "contentStatus": "draft"
+    },
+    {
+      "id": "v4-verb-spise",
+      "forms": {
+        "infinitive": "at spise",
+        "present": "spiser",
+        "past": "spiste",
+        "perfect": "har spist"
+      },
+      "sentences": {
+        "infinitive": "Jeg kan lide at spise.",
+        "present": "Jeg spiser en bolle.",
+        "past": "I går spiste jeg en bolle.",
+        "perfect": "Jeg har spist en bolle."
+      },
+      "explanation": "Læg mærke til formerne spiste og har spist. Vi lærer dem i konkrete sætninger.",
+      "contentStatus": "draft"
+    },
+    {
+      "id": "v4-verb-gaa",
+      "forms": {
+        "infinitive": "at gå",
+        "present": "går",
+        "past": "gik",
+        "perfect": "er gået"
+      },
+      "sentences": {
+        "infinitive": "Jeg kan lide at gå.",
+        "present": "Jeg går hjem.",
+        "past": "I går gik jeg hjem.",
+        "perfect": "Jeg er gået hjem."
+      },
+      "explanation": "Gå bøjes uregelmæssigt: går, gik. I vores eksempel bruger vi er gået hjem; hjælpeverbet afhænger af sammenhængen.",
+      "contentStatus": "draft"
+    },
+    {
+      "id": "v4-verb-vaere",
+      "forms": {
+        "infinitive": "at være",
+        "present": "er",
+        "past": "var",
+        "perfect": "har været"
+      },
+      "sentences": {
+        "infinitive": "Det er rart at være hjemme.",
+        "present": "Jeg er hjemme.",
+        "past": "I går var jeg hjemme.",
+        "perfect": "Jeg har været hjemme."
+      },
+      "explanation": "Være bøjes uregelmæssigt: er, var, har været.",
+      "contentStatus": "draft"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "v4-vaelg-form",
+      "title": "Vælg den rigtige form",
+      "description": "Læs sætningen og vælg den form, opgaven beder om.",
+      "exerciseIds": [
+        "v4-choose-lege",
+        "v4-choose-spise",
+        "v4-choose-vaere"
+      ]
+    },
+    {
+      "id": "v4-skriv-form",
+      "title": "Skriv den manglende form",
+      "description": "Udfyld hullet med udsagnsordets form. Hjælpeverbet skal med, når opgaven beder om førnutid.",
+      "exerciseIds": [
+        "v4-fill-lege",
+        "v4-fill-gaa",
+        "v4-fill-spise"
+      ]
+    },
+    {
+      "id": "v4-find-tid",
+      "title": "Genkend formen",
+      "description": "Match en form med navneform, nutid, datid eller førnutid.",
+      "exerciseIds": [
+        "v4-match-infinitive",
+        "v4-match-present",
+        "v4-match-past",
+        "v4-match-perfect"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "v4-choose-lege",
+      "type": "choose_form",
+      "verbId": "v4-verb-lege",
+      "form": "present",
+      "prompt": "Vælg nutidsformen af at lege, så den passer i sætningen.",
+      "options": [
+        "legede",
+        "leger",
+        "har leget"
+      ],
+      "answer": "leger"
+    },
+    {
+      "id": "v4-choose-spise",
+      "type": "choose_form",
+      "verbId": "v4-verb-spise",
+      "form": "past",
+      "prompt": "Vælg datidsformen af at spise.",
+      "options": [
+        "spiser",
+        "har spist",
+        "spiste"
+      ],
+      "answer": "spiste"
+    },
+    {
+      "id": "v4-choose-vaere",
+      "type": "choose_form",
+      "verbId": "v4-verb-vaere",
+      "form": "perfect",
+      "prompt": "Vælg førnutid. Husk hjælpeverbet.",
+      "options": [
+        "har været",
+        "var",
+        "er"
+      ],
+      "answer": "har været"
+    },
+    {
+      "id": "v4-fill-lege",
+      "type": "fill_form",
+      "verbId": "v4-verb-lege",
+      "form": "past",
+      "prompt": "Skriv datidsformen af at lege i hullet.",
+      "options": [],
+      "answer": "legede"
+    },
+    {
+      "id": "v4-fill-gaa",
+      "type": "fill_form",
+      "verbId": "v4-verb-gaa",
+      "form": "past",
+      "prompt": "Skriv datidsformen af at gå i hullet.",
+      "options": [],
+      "answer": "gik"
+    },
+    {
+      "id": "v4-fill-spise",
+      "type": "fill_form",
+      "verbId": "v4-verb-spise",
+      "form": "perfect",
+      "prompt": "Skriv hele førnutidsformen af at spise, inklusive hjælpeverbet.",
+      "options": [],
+      "answer": "har spist"
+    },
+    {
+      "id": "v4-match-infinitive",
+      "type": "match_tense",
+      "verbId": "v4-verb-gaa",
+      "form": "infinitive",
+      "prompt": "Hvilken betegnelse passer til “at gå”?",
+      "options": [
+        "navneform",
+        "nutid",
+        "datid",
+        "førnutid"
+      ],
+      "answer": "navneform"
+    },
+    {
+      "id": "v4-match-present",
+      "type": "match_tense",
+      "verbId": "v4-verb-vaere",
+      "form": "present",
+      "prompt": "Hvilken betegnelse passer til “er”?",
+      "options": [
+        "navneform",
+        "nutid",
+        "datid",
+        "førnutid"
+      ],
+      "answer": "nutid"
+    },
+    {
+      "id": "v4-match-past",
+      "type": "match_tense",
+      "verbId": "v4-verb-spise",
+      "form": "past",
+      "prompt": "Hvilken betegnelse passer til “spiste”?",
+      "options": [
+        "navneform",
+        "nutid",
+        "datid",
+        "førnutid"
+      ],
+      "answer": "datid"
+    },
+    {
+      "id": "v4-match-perfect",
+      "type": "match_tense",
+      "verbId": "v4-verb-gaa",
+      "form": "perfect",
+      "prompt": "Hvilken betegnelse passer til “er gået”?",
+      "options": [
+        "navneform",
+        "nutid",
+        "datid",
+        "førnutid"
+      ],
+      "answer": "førnutid"
+    }
+  ]
+}

@@ -7,17 +7,27 @@ version: 1.0.0+1
 environment:
   sdk: ^3.13.7
 
-# V0 uses Flutter's built-in UI, navigation and state management.
-# Evaluate flutter_tts / just_audio for V1 and local storage for V5.
+# V1 keeps Flutter Navigator and ChangeNotifier; audio and progress are local.
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.8
+  just_audio: ^0.10.6
+  flutter_tts: ^4.2.5
+  shared_preferences: ^2.5.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/audio/audio_manifest.json
