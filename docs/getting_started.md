@@ -251,6 +251,48 @@ git status
 git diff --stat
 ```
 
+### Lokal Git-identitet og privat GitHub-email
+
+Sæt identiteten **før første commit**. Kør kommandoerne fra projektmappen;
+`--local` gemmer indstillingerne i dette repositories `.git/config` og ændrer
+ikke identiteten i dine andre projekter.
+
+1. Åbn [GitHub → Settings → Emails](https://github.com/settings/emails).
+2. Aktivér **Keep my email address private**, og kopiér den præcise
+   GitHub-udstedte `noreply`-adresse, der vises. Den har typisk formatet
+   `ID+USERNAME@users.noreply.github.com`; ældre konti kan have
+   `USERNAME@users.noreply.github.com`. Gæt ikke ID'et eller adressen.
+3. Aktivér eventuelt **Block command line pushes that expose my email**
+   som ekstra beskyttelse mod at pushe din personlige email.
+4. Erstat eksemplerne nedenfor med dit ønskede forfatternavn og den kopierede adresse:
+
+```bash
+cd ~/Documents/Code/sprog_appen
+git config --local user.name "Dit forfatternavn"
+git config --local user.email "ID+USERNAME@users.noreply.github.com"
+```
+
+`user.name` er det offentlige forfatternavn på dine commits og behøver ikke
+være dit GitHub-brugernavn. GitHubs `noreply`-adresse skjuler din personlige
+email, men commits kan stadig knyttes til din GitHub-konto; den gør dig ikke
+anonym som person. Indstillingerne erstatter ikke autentifikation ved push.
+
+Kontrollér de lokale værdier og den effektive identitet før commit:
+
+```bash
+git config --local --get user.name
+git config --local --get user.email
+git var GIT_AUTHOR_IDENT
+git var GIT_COMMITTER_IDENT
+```
+
+De sidste to kommandoer viser også, hvis miljøvariabler tilsidesætter den
+lokale konfiguration. Ændringen gælder nye commits; eksisterende commits
+beholder deres tidligere navn og email.
+
+Se [GitHubs vejledning til commit-email](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address)
+og [GitHubs vejledning til forfatternavn](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git).
+
 ### Første commit (dokumentation + Flutter-grundprojekt)
 
 Når du har kopieret dokumenterne til repoet og har oprettet Flutter-projektet:
