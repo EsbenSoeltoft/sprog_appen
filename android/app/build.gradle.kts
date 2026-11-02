@@ -1,3 +1,4 @@
+import java.io.File
 import java.util.Properties
 
 plugins {
@@ -18,8 +19,21 @@ val hasReleaseSigning = signingKeys.all {
     !keystoreProperties.getProperty(it).isNullOrBlank()
 }
 
+// Resolve the private keystore once for both signing and validation.
+// Absolute paths and ~/ are supported; relative paths are based on android/.
+val releaseKeystoreFile = keystoreProperties.getProperty("storeFile")
+    ?.takeIf { it.isNotBlank() }
+    ?.let { configuredPath ->
+        val expandedPath = if (configuredPath.startsWith("~/")) {
+            File(System.getProperty("user.home"), configuredPath.removePrefix("~/")).path
+        } else {
+            configuredPath
+        }
+        rootProject.file(expandedPath)
+    }
+
 android {
-    namespace = "com.incipier.sprogappen"
+    namespace = "com.incipier.sprog_appen"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -30,7 +44,7 @@ android {
 
     defaultConfig {
         // Permanent identity under incipier.com, distinct from com.incipier.incipier.
-        applicationId = "com.incipier.sprogappen"
+        applicationId = "com.incipier.sprog_appen"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -47,7 +61,7 @@ android {
         if (hasReleaseSigning) {
             create("release") {
                 // Relative paths in key.properties resolve from android/.
-                storeFile = rootProject.file(keystoreProperties.getProperty("storeFile"))
+                storeFile = releaseKeystoreFile
                 storePassword = keystoreProperties.getProperty("storePassword")
                 keyAlias = keystoreProperties.getProperty("keyAlias")
                 keyPassword = keystoreProperties.getProperty("keyPassword")
@@ -97,8 +111,8 @@ val validateReleaseSigning = tasks.register("validateReleaseSigning") {
         check(hasReleaseSigning) {
             "Release signing requires android/key.properties with storeFile, storePassword, keyAlias and keyPassword. See docs/android_release.md."
         }
-        check(rootProject.file(keystoreProperties.getProperty("storeFile")).isFile) {
-            "Release keystore not found. Check storeFile in android/key.properties."
+        check(releaseKeystoreFile?.isFile == true) {
+            "Release keystore not found. Set storeFile in android/key.properties to an existing keystore (absolute path, ~/ path, or relative to android/)."
         }
     }
 }

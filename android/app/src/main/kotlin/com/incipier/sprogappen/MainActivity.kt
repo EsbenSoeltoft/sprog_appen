@@ -1,4 +1,4 @@
-package com.incipier.sprogappen
+package com.incipier.sprog_appen
 
 import io.flutter.embedding.android.FlutterActivity
 

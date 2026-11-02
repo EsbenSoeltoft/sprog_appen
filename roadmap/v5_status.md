@@ -57,7 +57,7 @@ appen efter integrationstest; afinstallation fjerner appdata. Kommandoer:
 
 ```sh
 fvm flutter test integration_test/progress_prepare_test.dart --no-uninstall -d DEVICE_ID
-adb -s DEVICE_ID shell am force-stop com.incipier.sprogappen.debug
+adb -s DEVICE_ID shell am force-stop com.incipier.sprog_appen.debug
 fvm flutter test integration_test/progress_restart_test.dart --no-uninstall -d DEVICE_ID
 fvm flutter test integration_test/vowel_ladder_flow_test.dart --no-uninstall -d DEVICE_ID
 ```

@@ -89,7 +89,7 @@ Codex skal **først læse** disse filer, hvis de findes:
 **Bevar:**
 
 - Den valgte Flutter-version styret af FVM.
-- Eksisterende package/application-id og planlagt domænetilknytning til `incipier.com`. Hvis et package-id skal etableres, foreslås `com.incipier.sprogappen`, men **ændr ikke en allerede besluttet identitet** uden grund.
+- Eksisterende package/application-id og planlagt domænetilknytning til `incipier.com`. Hvis et package-id skal etableres, foreslås `com.incipier.sprog appen`, men **ændr ikke en allerede besluttet identitet** uden grund.
 - Eksisterende debug/profile/release-buildopsætning og signing.
 - Eksisterende state management eller router, hvis allerede valgt og velfungerende.
 

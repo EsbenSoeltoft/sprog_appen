@@ -51,3 +51,11 @@ android/app/release/
 *.key
 android/key.properties
 *.log
+
+# Other private certificates and credentials
+*.pem
+*.p8
+*.der
+*.asc
+**/service-account*.json
+**/credentials.json

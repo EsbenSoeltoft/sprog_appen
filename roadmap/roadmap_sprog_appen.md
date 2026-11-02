@@ -317,7 +317,7 @@ Se [V5-status, migration og testforløb](../docs/v5_status.md).
 - [ ] Revider stave- og grammatikindhold med en dansksproglig fagperson.
 - [ ] Gennemgå licenser og rettigheder til lydoptagelser, illustrationer og ordlister.
 - [ ] Beslut permanent Android application ID, ikon, versionsnumre og distributionsform.
-- [ ] Konfigurer signering sikkert (keystore må aldrig committes).
+- [x] Konfigurer signering sikkert: release-AAB bygget og signatur verificeret 2026-11-02; key.properties ignoreres, og keystore ligger uden for repoet.
 - [ ] Opret CI for analyze/test/build og en versionsstyret releaseproces.
 - [ ] Udgiv eventuelt først som privat APK/internal testing; Play Store er en særskilt beslutning.
 

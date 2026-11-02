@@ -4,11 +4,11 @@ Appens domæne er `incipier.com`; Android bruger omvendt domænenotation.
 
 | Build | Application ID | Signering |
 | --- | --- | --- |
-| Release | `com.incipier.sprogappen` | Privat upload-/release-nøgle |
-| Debug | `com.incipier.sprogappen.debug` | Lokal debugnøgle |
-| Profile | `com.incipier.sprogappen.profile` | Lokal debugnøgle |
+| Release | `com.incipier.sprog_appen` | Privat upload-/release-nøgle |
+| Debug | `com.incipier.sprog_appen.debug` | Lokal debugnøgle |
+| Profile | `com.incipier.sprog_appen.profile` | Lokal debugnøgle |
 
-Namespace og Kotlin-package er `com.incipier.sprogappen`. Alle tre builds kan installeres parallelt, også sammen med hovedappen `com.incipier.incipier`.
+Namespace og Kotlin-package er `com.incipier.sprog_appen`. Alle tre builds kan installeres parallelt, også sammen med hovedappen `com.incipier.incipier`.
 Profile oprettes af Flutter-pluginet og beholder dets profilopsætning.
 
 Et application ID er ikke en webadresse. Denne opsætning ændrer ikke DNS,
@@ -53,3 +53,22 @@ Der oprettes eller pushes ikke et commit som del af denne klargøring.
 
 Kilder: https://docs.flutter.dev/deployment/android og
 https://developer.android.com/build/build-variants
+
+## Keystore-sti
+
+Release-signering læses fra `android/key.properties`; ingen debugnøgle bruges
+som fallback i release. `storeFile` skal pege på en eksisterende privat keystore.
+Absolut sti og `~/` understøttes. Relative stier regnes fra `android/`.
+Gradle bruger samme opløste fil til signering og validering. Hvis filen mangler,
+stopper release-buildet med en besked uden at udskrive adgangskoder.
+
+## Verificeret release — 2026-11-02
+
+`fvm flutter build appbundle --release` er gennemført med den lokale
+release-keystore. Appbundlens JAR-signatur er verificeret med `jarsigner`;
+private keystore-filer og `key.properties` er ikke inkluderet i bundlen.
+Signeringsfilen er ignoreret af Git, og den aktuelle keystore ligger uden for
+repositoryet. Den private filsti og adgangskoder dokumenteres ikke her.
+
+Output: `build/app/outputs/bundle/release/app-release.aab`.
+Dette verificerer build og signering, ikke Play-publicering eller faglig godkendelse.

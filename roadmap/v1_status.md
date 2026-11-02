@@ -6,7 +6,7 @@ Dato: 2026-11-02. Grundlag: `roadmap/v1_implementation_plan.md`.
 
 Eksisterende Flutter 3.47.9 / Dart 3.13.7, FVM, Material 3 og Navigator er
 bevaret. Baseline-analyse og de to eksisterende widgettests bestod før ændringer.
-Android-ID `com.incipier.sprogappen` og debug/profile/release-signering er uændret.
+Android-ID `com.incipier.sprog_appen` og debug/profile/release-signering er uændret.
 Kun TTS-service-query er tilføjet til Android-manifestet; ingen mikrofon,
 cleartext eller ny netværkstilladelse er tilføjet.
 
