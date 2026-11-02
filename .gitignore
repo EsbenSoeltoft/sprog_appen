@@ -1,0 +1,53 @@
+# OS and editors
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# Dart / Flutter generated files
+.dart_tool/
+.dart-tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+*.lcov
+app.*.symbols
+app.*.map.json
+
+# FVM: commit .fvmrc, not local SDK/cache
+.fvm/
+
+# Android local state and build output
+.gradle/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+android/local.properties
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Local configuration and signing secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+android/key.properties
+*.log
